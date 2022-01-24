@@ -71,20 +71,25 @@ body {
 }
 
 #main-content section {
+    padding: 0;
+}
+
+#main-content .text-box {
     background-color: grey;
-    padding: 20px;
+    margin: 15px 20px 15px;
+    padding: 10px 20px 10px;
+}
+
+#main-content section a {
+    color:rgb(0, 89, 255);
 }
 
 #main-content h2 {
-    margin: 15px 15px 30px;
+    margin: 15px 15px 20px;
 }
 
 #main-content h3 {
     margin: 15px;
-}
-
-#main-content p + h3 {
-    margin-top: 30px;
 }
 
 /* Tablets and larger: */
