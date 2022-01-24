@@ -58,10 +58,38 @@ body {
 /* Dropdown menu text and horizontal lines between items */
 #nav-list a {
     color: black;
-    text-align: center;
     border-bottom: solid black 2px;
 }
 
 #nav-list li:nth-last-child(1) a {
     border-bottom: 0;
+}
+
+#main-content {
+    width: 80%;
+    color: black;
+}
+
+#main-content section {
+    background-color: grey;
+    padding: 20px;
+}
+
+#main-content h2 {
+    margin: 15px 15px 30px;
+}
+
+#main-content h3 {
+    margin: 15px;
+}
+
+#main-content p + h3 {
+    margin-top: 30px;
+}
+
+/* Tablets and larger: */
+@media (min-width: 768px) {
+    #main-content {
+        width: 95%;
+    }
 }
