@@ -1,0 +1,16 @@
+body {
+    font-size: 16px;
+    background-color: white;
+}
+
+#header {
+    border: 0;
+    border-radius: 0;
+    background-color: grey;
+}
+
+#brandname {
+    margin: 10px 15px 10px 0;
+    color: black;
+    font-size: 2em;
+}
