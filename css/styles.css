@@ -4,7 +4,7 @@ body {
 }
 
 #header {
-    border: 0;
+    border: solid black 3px;
     border-radius: 0;
     background-color: grey;
 }
@@ -13,4 +13,55 @@ body {
     margin: 10px 15px 10px 0;
     color: black;
     font-size: 2em;
+}
+
+/* Overwriting the default bootstrap style of button */
+.navbar-default .navbar-toggle {
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    border-color: #ddd;
+    background-color: grey;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    border: black;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #ddd;
+}
+
+/* Remove bootstrap's 1px transparent border on the dropdown menu */
+#navbar-collapse {
+    border-top: 0;
+}
+
+#nav-list {
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: solid black 3px;
+}
+
+/* Dropdown menu text and horizontal lines between items */
+#nav-list a {
+    color: black;
+    text-align: center;
+    border-bottom: solid black 2px;
+}
+
+#nav-list li:nth-last-child(1) a {
+    border-bottom: 0;
 }
